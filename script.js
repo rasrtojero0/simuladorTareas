@@ -147,21 +147,38 @@ opsi.addEventListener("change", function() {
 
 
 
+// function mostrar(){
+//    if (boton.checked == true){
+//     realizado.style.visibility = "visible";
+//     norealizado.style.visibility = "hidden";
+//     norealizado.style.display = "block";
+//     document.getElementById("info").innerHTML =  "";
+//     document.getElementById("nota").innerHTML = "";
+//    }
+//    if(boton.checked == false){
+//     norealizado.style.visibility = "visible"
+
+//     realizado.style.visibility = "hidden";
+//     document.getElementById("info").innerHTML = "";
+//     document.getElementById("nota").innerHTML = "";
+//     }
+// }
+
+
+ 
 function mostrar(){
-   if (boton.checked == true){
-    realizado.style.visibility = "visible";
-    norealizado.style.visibility = "hidden";
-    norealizado.style.display = "block";
-    document.getElementById("info").innerHTML =  "";
-    document.getElementById("nota").innerHTML = "";
-   }
-   if(boton.checked == false){
-    norealizado.style.visibility = "visible"
-
-    realizado.style.visibility = "hidden";
-    document.getElementById("info").innerHTML = "";
-    document.getElementById("nota").innerHTML = "";
+    if (boton.checked == true){
+     
+     norealizado.style.display = "none";
+     realizado.style.display = "block"
+     document.getElementById("info").innerHTML =  "";
+     document.getElementById("nota").innerHTML = "";
     }
-}
-
-
+    if(boton.checked == false){
+    
+     norealizado.style.display = "block";
+     realizado.style.display = "none";
+     document.getElementById("info").innerHTML = "";
+     document.getElementById("nota").innerHTML = "";
+     }
+ }
