@@ -93,13 +93,13 @@ h2{
 
 
   #realizado , #realizado45{
-    visibility: hidden;
-    display: block;
+    /* visibility: hidden; */
+    display: none;
 
   }
 
   #norealizado, #norealizado45{
-    visibility: visible;
+    /* visibility: visible; */
     display: block;
   }
 
@@ -179,3 +179,21 @@ h2{
 .fijo{
   flex-wrap: nowrap;
 }
+
+/* ------------------------------------------------------RESPONSIVE------------------------------------------- */
+
+@media (max-width: 800px) {
+h2{
+  font-size: 40px;
+}
+
+.oculto{
+  display: none;
+}
+
+#opno45, #opsi45, #opsi, #opno, #info, #nota{
+  margin-left:10px;
+}
+
+}
+
