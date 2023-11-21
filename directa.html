@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">  
+  <title>Retiro de directa</title>
+</head>
+<body>
+  <h2>Retiro de directa</h2>
+  <ul class="nav nav-tabs fijo">
+    <li class="nav-item azul">
+      <a class="nav-link oculto " aria-current="page">DATOS DE TAREA</a>
+    </li>
+    <li class="nav-item azul">
+      <a class="nav-link active " >ACCIONES</a>
+      <p class="realizado45">Realizado</p>
+      <label class="switch ">
+        <input type="checkbox" class="switch" id="boton45" >
+        
+        <span class="slider round" ></span>
+      </label>
+     
+      <div id="norealizado45">
+        <select name="" id="opno45">
+          <option value=""></option>
+          <option value="1" >AUSENTE</option>
+          <option value="1" >CLIENTE SE NIEGA</option>
+          <option value="1" >REVISAR PARA CONTROL</option>
+          <option value="1" >NO EXISTE DOMICILIO</option>
+          <option value="1" >BARRIO CARENCIADO</option>
+          <option value="1" >MEDIDOR NUEVO COLOCADO</option>
+        </select>
+      </div>
+      <div id="realizado45" >
+        <select name="" id="opsi45" class="select">
+          <option value="0"></option>
+          <option value="1">SE RETIRO DIRECTA Y SE PUSO TAPON GIRATORIO O 3 PUNTAS</option>
+          <option value="1">SE RETIRO DIRECTA Y SE PUSO CEMENTO</option>
+          <option value="1">NO HAY ILICITO - NICHO VACIO</option>
+          <option value="1">NICHO TAPIADO SE PUEDE CORTAR</option>
+          <option value="1">NICHO TAPIADO NO SE PUEDE CORTAR</option>
+          <option value="1">CLIENTE SIN MEDIDOR - SE TAPONO SERVICIO</option>
+          <option value="1">SE RETIRO MED APOCRIFO Y SE TAPONO SERVICIO</option>
+          <option value="1">a- revisar por control</option>
+          <option value="1">a- adicional fuga para cau</option>
+          <option value="1">POSIBLE ILICITO ENTERRADO</option>
+          <option value="1">a- adiconal bypass parcial</option>
+
+   
+        </select>
+      </div>
+      <div id="info" class="margen informa" >
+        
+       
+      </div>
+      <div id="nota" class="margenLargo">
+
+      </div>
+    
+    </li>
+    <li class="nav-item">
+      <a class="nav-link oculto " >MEDIDOR COLOCADO</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link disabled oculto ">MATERIALES</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link disabled oculto ">IMAGENES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled oculto ">FIRMAS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled oculto ">RECHAZOS</a>
+      </li>
+
+  </ul>
+
+  <a href="index.html"><button type="button" class="btn btn-primary buttonBack">VOLVER</button></a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <script src="script45.js"></script>
+</body>
+</html>
